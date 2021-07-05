@@ -21,6 +21,7 @@ require (
 	github.com/cloudfoundry-attic/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21
 	github.com/cloudfoundry/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21 // indirect
 	github.com/containerd/continuity v0.0.0-20201208142359-180525291bb7 // indirect
+	github.com/coreos/etcd v3.3.13+incompatible // indirect
 	github.com/docker/cli v0.0.0-20200303162255-7d407207c304 // indirect
 	github.com/docker/docker v17.12.0-ce-rc1.0.20181225093023-5ddb1d410a8b+incompatible
 	github.com/docker/go-units v0.4.0
@@ -30,13 +31,14 @@ require (
 	github.com/evanphx/json-patch v4.5.0+incompatible // indirect
 	github.com/go-logr/logr v0.3.0 // indirect
 	github.com/golang-collections/collections v0.0.0-20130729185459-604e922904d3
-	github.com/google/go-cmp v0.5.4
+	github.com/google/go-cmp v0.5.5
 	github.com/google/go-containerregistry v0.3.0
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-github/v32 v32.1.0
 	github.com/google/slowjam v0.0.0-20200530021616-df27e642fe7b
 	github.com/google/uuid v1.1.2
 	github.com/googleapis/gnostic v0.3.0 // indirect
+	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/hashicorp/go-getter v1.5.1
 	github.com/hashicorp/go-retryablehttp v0.6.6
 	github.com/hectane/go-acl v0.0.0-20190604041725-da78bae5fc95 // indirect
@@ -71,28 +73,28 @@ require (
 	github.com/russross/blackfriday v1.5.3-0.20200218234912-41c5fccfd6f6 // indirect
 	github.com/samalba/dockerclient v0.0.0-20160414174713-91d7393ff859 // indirect
 	github.com/shirou/gopsutil/v3 v3.21.1
-	github.com/spf13/cobra v1.0.0
+	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.7.0
+	github.com/spf13/viper v1.8.1
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v0.0.0-20180618132009-1d523034197f
 	github.com/zchee/go-vmnet v0.0.0-20161021174912-97ebf9174097
-	go.opencensus.io v0.22.6
+	go.opencensus.io v0.23.0
 	go.opentelemetry.io/otel v0.17.0
 	go.opentelemetry.io/otel/sdk v0.16.0
 	go.opentelemetry.io/otel/trace v0.17.0
 	golang.org/x/build v0.0.0-20190927031335-2835ba2e683f
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
 	golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6
-	golang.org/x/mod v0.4.1
-	golang.org/x/oauth2 v0.0.0-20210113205817-d3ed898aa8a3
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c
-	golang.org/x/text v0.3.4
-	google.golang.org/api v0.40.0
+	golang.org/x/mod v0.4.2
+	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sys v0.0.0-20210510120138-977fb7262007
+	golang.org/x/text v0.3.5
+	google.golang.org/api v0.44.0
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
-	gopkg.in/yaml.v2 v2.3.0
+	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/v3 v3.0.2 // indirect
 	k8s.io/api v0.18.8
 	k8s.io/apimachinery v0.18.8
